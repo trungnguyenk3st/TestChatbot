@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "b1993f0a-09dc-4214-9dbd-2b579cc04e9d",
+  "packageName": "com.microsoft.powerva.90ac4b90-ec93-477a-8818-db3b36d8f48e",
+  "developer": {
+    "name": "Trung Nguyen",
+    "websiteUrl": "https://go.microsoft.com/fwlink/?linkid=2138949",
+    "privacyUrl": "https://go.microsoft.com/fwlink/?linkid=2138950",
+    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2138865",
+    "mpnId": "0000000"
+  },
+  "name": {
+    "short": "FAQs MissionMade VN",
+    "full": "FAQs MissionMade VN"
+  },
+  "description": {
+    "short": "FAQs bot for Mission Made",
+    "full": "FAQs bot for Mission Made"
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#ffff00",
+  "bots": [
+    {
+      "botId": "b1993f0a-09dc-4214-9dbd-2b579cc04e9d",
+      "isNotificationOnly": false,
+      "supportsFiles": false,
+      "scopes": [
+        "personal",
+        "team"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "*.botframework.com",
+    "*.*.botframework.com",
+    "login.microsoftonline.com",
+    "powerva.microsoft.com",
+    "*.consent.azure-apim.net",
+    "*.azure-apim.net"
+  ]
+}
